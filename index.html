@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AstraKitten's Blog</title>
+	<style>
+		body {
+			font-family: 'Arial', sans-serif;
+			background-color: #f9f9f9; /* Light grey background */
+			color: #333; /* Dark grey text for readability */
+			margin: 0;
+			padding: 0;
+			line-height: 1.6;
+		}
+
+		header {
+			background-color: #e74c3c; /* Light red header */
+			color: #000; /* Black header text */
+			text-align: center;
+			padding: 20px;
+		}
+
+		header h1 {
+			font-size: 2.5em;
+			margin: 0;
+		}
+
+		header a {
+			color: #34495E; /* Dark blue links */
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 20px auto;
+			padding: 10px;
+			background-color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.post {
+			margin-bottom: 30px;
+			padding-bottom: 20px;
+			border-bottom: 1px solid #ddd;
+		}
+
+		.post h2 {
+			color: #27ae60; /* Green title */
+			font-size: 1.8em;
+		}
+
+		.post p {
+			font-size: 1.1em;
+		}
+
+		.post a {
+			color: #3498DB; /* Blue links */
+		}
+
+		footer {
+			text-align: center;
+			padding: 10px;
+			background-color: #f9f9f9;
+			color: #777;
+			font-size: 0.8em;
+		}
+
+		footer a {
+			color: #3498DB; /* Blue links */
+		}
+
+		@media (prefers-color-scheme: dark) {
+			header {
+				background-color: #C0392B; /* Dark red header */
+			}
+
+			body {
+				background-color: #212121; /* Dark grey background */
+				color: #fff; /* White text for readability */
+			}
+
+			.container {
+				background-color: #424242;
+			}
+
+			footer {
+				background-color: #424242;
+				color: #fff;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<header>
+	<img style="max-width:10em;border-radius:50%;" src="/pfp.jpg" alt="a cat girl holding a cat under a harvest moon with sunflowers in the background" loading="lazy">
+		<h1>AstraKitten's Purrfect Blog</h1>
+	<p>Hi! I'm Tariya, aka AstraKitten.<br>Welcome to my little corner of the Internet where I share my thoughts on programming, security, and more.<br>Socials: <a href="https://github.com/AstraKitten" rel="nofollow noopener noreferrer" target="_blank">GitHub</a>, <a href="https://codeberg.org/AstraKitten" rel="nofollow noopener noreferrer" target="_blank">Codeberg</a>, <a href="https://infosec.exchange/@AstraKitten" rel="me nofollow noopener noreferrer" target="_blank">Mastodon</a>, <a href="https://discuss.privacyguides.net/u/AstraKitten/" rel="nofollow noopener noreferrer" target="_blank">Privacy Guides Forum</a>.</p>
+	</header>
+
+	<div class="container">
+
+		<div class="post" id="opencollective-image-scaling-issue-fixed">
+			<h2>Unbounded Image Resizing on Open Collective🪛<br><small>2025-08-05</small></h2>
+			<p>Images such as avatars and background images had a height parameter that could be passed and the server would actually resize images to any arbitrary value. This was at most a minor DoS issue, but Open Collective still <a href="https://github.com/opencollective/opencollective-images/pull/629" rel="nofollow noopener noreferrer" target="_blank">deployed a fix</a> ~11 hours after I emailed them. Awesome!</p>
+		</div>
+
+		<div class="post" id="donate-security-issue-report">
+			<h2>A security issue on a donation platform✒️<br><small>2025-08-05</small></h2>
+			<p>I just emailed a report to a popular donation platform for a small security vulnerability. I hope to write more about it soon once they patch it!</p>
+		</div>
+
+		<div class="post" id="new-release-shv">
+			<h2>New release: shv 🌸<br><small>2025-08-05</small></h2>
+			<p>I just released my first program. <a href="https://codeberg.org/AstraKitten/shv" rel="nofollow noopener noreferrer" target="_blank">Check it out here.</a></p>
+		</div>
+
+		<div class="post" id="hello-world">
+			<h2>First Post: Kitties and Rainbows! 🌈<br><small>2025-08-05</small></h2>
+			<p>Hi everyone! Welcome to my very first blog post! I'm so excited to share my thoughts and creations with you. Today, I've been thinking about how adorable kittens and rainbows are. They just make everything better, 
+don't they?</p>
+		</div>
+
+	</div>
+
+	<footer>
+		&copy; 2025 AstraKitten, Text: CC BY-SA 4.0, <a href="https://codeberg.org/AstraKitten/pages" rel="nofollow noopener noreferrer" target="_blank">Source Code</a>: AGPL-3.0-or-later
+	</footer>
+
+</body>
+</html>
